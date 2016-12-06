@@ -1,0 +1,50 @@
+body {
+	font: 2em "Source Sans Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header{
+	background-image: url(https://www.epa.gov/sites/production/files/styles/large/public/2015-08/rfs-alternativefuels.jpg);
+	background-position-x: left;
+	background-position-y: center;
+}
+
+header h1 {
+	font: 10em monospace;
+	font-variant: small-caps;
+	color: black;
+	font: 400 130px/2.75 'Great Vibes', Helvetica, sans-serif;
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+header p{
+	position: relative;
+	font-family: 'Great Vibes';
+	font-size: 2em;
+	top: -0.6em;
+	left: 6em;
+
+}
+
+#nav li:hover ul{
+	box-shadow: 10px 5px 5px black;
+}
+
+#nav ul a:hover{
+	box-shadow: 10px 5px 5px blue;
+}
+
+#nav li{
+    color:#fff;
+    background:#333;
+	padding: 0.5em;
+}
+
+#nav li a{
+	text-decoration:none;
+	color:#fff;
+	font-weight: bold;
+}
+
+#nav input {
+	font-size: 0.7em;
+}

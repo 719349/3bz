@@ -39,3 +39,11 @@ time, mark, audio, video {
 #nav li:hover ul{ /* Display the dropdown on hover */
 	display: block;
 }
+
+header img{
+	width: 100%;
+}
+
+main {
+	clear: left;
+}

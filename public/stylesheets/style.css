@@ -2,12 +2,6 @@ body {
 	font: 2em "Source Sans Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-header{
-	background-image: url(https://www.epa.gov/sites/production/files/styles/large/public/2015-08/rfs-alternativefuels.jpg);
-	background-position-x: left;
-	background-position-y: center;
-}
-
 header h1 {
 	font: 10em monospace;
 	font-variant: small-caps;

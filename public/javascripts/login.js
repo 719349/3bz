@@ -12,6 +12,7 @@ let setUp = function () {
 			status.innerText = 'Valid user';
 			status.classList.add('valid');
 			status.classList.remove('invalid');
+			sessionStorage.user = formElements[0].value;
 		} else {
 			status.innerText = 'User password combination not recognised';
 			status.classList.add('invalid');

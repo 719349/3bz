@@ -2,11 +2,33 @@
 <html>
 	<head>
 		<% include sharedContent/head.ejs %>
+		<script src="../javascripts/login.js"></script>
+		<link rel="stylesheet" href="../stylesheets/login.css">
 	</head>
 	<body>
 		<% include sharedContent/menuBar.ejs %>
 		<main>
-			<h1>This is a login page</h1>
+			<h1>Log In</h1>
+			<form id="loginForm">
+				<label>
+					User name:
+					<input type="text" name="userName" value="" placeholder="Username">
+				</label>
+				<label>
+					Password
+					<input type="password" name="password" value="">
+				</label>
+
+				<button type="submit" name="submit">Log in</button>
+				<p id="loginStatus"></p>
+			</form>
+
+			<section>
+				<h1>Log in with these accounts</h1>
+				<a href="#"><img src="" alt="Google"></a>
+				<a href="#"><img src="" alt="Facebook"></a>
+				<a href="#"><img src="" alt="Twitter"></a>
+			</section>
 		</main>
 	</body>
 </html>

@@ -1,0 +1,21 @@
+form {
+	border: 1px solid black;
+}
+
+label {
+	display: block;
+}
+
+#loginStatus {
+	display: none;
+}
+
+#loginStatus.valid {
+	display: block;
+	background-color: green;
+}
+
+#loginStatus.invalid {
+	display: block;
+	background-color: red;
+}

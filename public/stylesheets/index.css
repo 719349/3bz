@@ -1,0 +1,14 @@
+main{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column{
+	border: 1px solid black;
+	min-width: 600px;
+	width: 48%;
+}
+
+#c1{
+	flex-shrink: 1;
+}

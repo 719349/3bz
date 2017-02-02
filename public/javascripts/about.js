@@ -2,7 +2,8 @@ let startLightbox = function() {
 	let img = document.getElementById('lightbox');
 	let images = [
 		'lb3.jpg',
-		'lb5.jpg'
+		'lb5.jpg',
+		'banner.png'
 	];
 	let i = 0;
 	let changeImage = function() {

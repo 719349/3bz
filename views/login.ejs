@@ -8,27 +8,44 @@
 	<body>
 		<% include sharedContent/menuBar.ejs %>
 		<main>
-			<h1>Log In</h1>
-			<form id="loginForm">
-				<label>
-					User name:
-					<input type="text" name="userName" value="" placeholder="Username">
-				</label>
-				<label>
-					Password
-					<input type="password" name="password" value="">
-				</label>
+				<div class="column">
+					<form id="loginForm">
+						<input type="text" name="userName" placeholder="Username">
+						<input type="password" name="password" placeholder="Password">
+						<button type="submit" name="submit">Log in</button>
+						<p id="loginStatus"></p>
+						<div id="passwordReset">
+							<p>
+								Forgotten password?
+							</p>
+							<p>
+								<a href="#">Click here</a>
+							</p>
+						</div>
 
-				<button type="submit" name="submit">Log in</button>
-				<p id="loginStatus"></p>
-			</form>
+						<section>
+							<h1>Log in with these accounts</h1>
+							<a href="#"><img src="../images/google.jpg" width="50px" alt="Google"></a>
+							<a href="#"><img src="../images/facebook.png" width="50px" alt="Facebook"></a>
+							<a href="#"><img src="../images/twitter.png" width="50px" alt="Twitter"></a>
+						</section>
+					</form>
+				</div>
 
-			<section>
-				<h1>Log in with these accounts</h1>
-				<a href="#"><img src="" alt="Google"></a>
-				<a href="#"><img src="" alt="Facebook"></a>
-				<a href="#"><img src="" alt="Twitter"></a>
-			</section>
+				<div class="column">
+					<h1>Create an account</h1>
+					<form id="registrationForm">
+						<input type="text" name="userName" placeholder="Username">
+						<input type="email" name="email" placeholder="email">
+						<input type="text" name="fName" placeholder="First name">
+						<input type="text" name="lName" placeholder="Last name">
+						<input type="tel" name="phone" placeholder="Phone">
+						<input type="password" name="password" placeholder="Password">
+						<input type="password" name="passwordCheck" placeholder="Re-enter your Password">
+						<p id="regStatus">status</p>
+						<button type="submit" name="Register">Register</button>
+					</form>
+				</div>
 		</main>
 	</body>
 </html>

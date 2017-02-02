@@ -1,0 +1,30 @@
+.flexContainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column{
+	border: 1px solid black;
+	min-width: 600px;
+	width: 44%;
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 2em;
+	margin: 1em;
+
+}
+
+li {
+	list-style-position: inside;
+	padding-left: 1em;
+}
+
+address{
+	font-style: italic;
+}
+
+p {
+	margin: 1em;
+}

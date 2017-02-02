@@ -1,12 +1,12 @@
-main{
+main, .flexContainer{
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .column{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	min-width: 600px;
-	width: 48%;
+	width: 44%;
 }
 
 #c1{

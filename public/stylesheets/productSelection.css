@@ -21,6 +21,10 @@
 	background-color: blue;
 }
 
+#lubricants{
+	background-color: purple;
+}
+
 .cost::before, #totalCost::before{
 	content: '₦'
 }

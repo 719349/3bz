@@ -4,57 +4,77 @@
 		<% include sharedContent/head.ejs %>
 		<script src="../javascripts/productSelection.js"></script>
 		<link rel="stylesheet" href="../stylesheets/productSelection.css">
+		<link rel="stylesheet" href="../stylesheets/products.css">
 	</head>
 	<body>
 		<header>
 			<% include sharedContent/menuBar.ejs %>
 		</header>
 		<main>
-			<section id="productContainer">
-				<section class="product" id="kerosene">
-					<p>U wan chop?</p>
-					<p>U need kerosene</p>
+			<div class="flexContainer">
+				<% include sharedContent/productList.ejs %>
 
-					<form id="keroseneSelection">
-						<label>Amount
-							<input type="number" name="keroseneAmount" value="0" min="0" max="100" step="5">
-							L
-						</label>
-						<p id="keroseneUnitCost">Cost per unit: ₦10</p>
-						<p id="keroseneCost" class="cost" data-cost="10">0</p>
-						<button type="submit" name="addKersoseneToBasket">Add Kerosene</button>
-					</form>
-				</section>
+				<div class="column" id="productDescription">
+					<section id="productContainer">
+						<section class="product" id="kerosene">
+							<p>U wan chop?</p>
+							<p>U need kerosene</p>
 
-				<section class="product" id="petrol">
-					<p>Petrol</p>
-					<form id="petrolSelection">
-						<label>Amount
-							<input type="number" name="petrolAmount" value="0" min="0" max="100" step="5">
-							L
-						</label>
-						<p id="petrolUnitCost">Cost per unit: ₦20</p>
-						<p id="petrolCost" class="cost" data-cost="20">0</p>
-						<button type="submit" name="addPetrolToBasket">Add Petrol</button>
-					</form>
-				</section>
-				<section class="product" id="diesel">
-					<p>Ride or diesel</p>
-					<form id="dieselSelection">
-						<label>Amount
-							<input type="number" name="dieselAmount" value="0" min="0" max="100" step="5">
-							L
-						</label>
-						<p id="dieselUnitCost">Cost per unit: ₦30</p>
-						<p id="dieselCost" class="cost" data-cost="30">0</p>
-						<button type="submit" name="addDieselToBasket">Add Diesel</button>
-					</form>
-				</section>
-			</section>
+							<form id="keroseneSelection">
+								<label>Amount
+									<input type="number" name="keroseneAmount" value="0" min="0" max="100" step="5">
+									L
+								</label>
+								<p id="keroseneUnitCost">Cost per unit: ₦10</p>
+								<p id="keroseneCost" class="cost" data-cost="10" data-product="kerosene">0</p>
+								<button type="submit" name="addKersoseneToBasket">Add Kerosene</button>
+							</form>
+						</section>
 
-			<section id="total">
-				<p id="totalCost"></p>
-			</section>
+						<section class="product" id="petrol">
+							<p>Petrol</p>
+							<form id="petrolSelection">
+								<label>Amount
+									<input type="number" name="petrolAmount" value="0" min="0" max="100" step="5">
+									L
+								</label>
+								<p id="petrolUnitCost">Cost per unit: ₦20</p>
+								<p id="petrolCost" class="cost" data-cost="20" data-product="petrol">0</p>
+								<button type="submit" name="addPetrolToBasket">Add Petrol</button>
+							</form>
+						</section>
+						<section class="product" id="diesel">
+							<p>Ride or diesel</p>
+							<form id="dieselSelection">
+								<label>Amount
+									<input type="number" name="dieselAmount" value="0" min="0" max="100" step="5">
+									L
+								</label>
+								<p id="dieselUnitCost">Cost per unit: ₦30</p>
+								<p id="dieselCost" class="cost" data-cost="30" data-product="diesel">0</p>
+								<button type="submit" name="addDieselToBasket">Add Diesel</button>
+							</form>
+						</section>
+
+						<section class="product" id="lubricants">
+							<p>lubricants</p>
+							<form id="lubricantsSelection">
+								<label>Amount
+									<input type="number" name="lubricantAmount" value="0" min="0" max="100" step="5">
+									L
+								</label>
+								<p id="lubricantsUnitCost">Cost per unit: ₦30</p>
+								<p id="lubricantsCost" class="cost" data-cost="30" data-product="lubricant">0</p>
+								<button type="submit" name="addLubricantsToBasket">Add Lubricant</button>
+							</form>
+						</section>
+					</section>
+
+					<section id="total">
+						<p id="totalCost"></p>
+					</section>
+				</div>
+			</div>
 		</main>
 	</body>
 </html>

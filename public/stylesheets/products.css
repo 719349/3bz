@@ -5,8 +5,19 @@
 
 .column{
 	border: 1px solid black;
-	min-width: 600px;
-	width: 44%;
+	min-width: 300px;
+	margin: 0.5em;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	background-color: #f0dc6f;
+}
+
+#productNavBar{
+	width: 15%;
+}
+
+#productDescription{
+	width: 65%;
 }
 
 h1 {

@@ -21,6 +21,9 @@ time, mark, audio, video {
 
 #nav{
     list-style:none;
+	margin: 0 auto;
+	width: -moz-fit-content;
+	width: fit-content;
 }
 #nav li{
     float:left;

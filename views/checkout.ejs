@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<% include sharedContent/head.ejs %>
+		<script src="../javascripts/checkout.js"></script>
+		<link rel="stylesheet" href="../stylesheets/products.css">
+		<link rel="stylesheet" href="../stylesheets/productSelection.css">
+		<link rel="stylesheet" href="../stylesheets/checkout.css">
+	</head>
+	<body>
+		<% include sharedContent/menuBar.ejs %>
+		<main>
+			<div class="flexContainer">
+				<% include sharedContent/productList.ejs %>
+
+				<div class="column" id="productDescription">
+					<h1>Checkout</h1>
+					<ul id='orderItems'>
+
+					</ul>
+					<div>Order total <span id="totalCost" class="cost"></span></div>
+					<div class="">
+						<a href="../pages/paymentPage">Click here to pay</a> or <a href="../pages/productSelection">here to add to your order</a> 
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

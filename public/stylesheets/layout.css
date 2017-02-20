@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 .center{
-	margin: 0 auto;
+	margin: 1em auto;
 	width: -moz-fit-content;
 	width: fit-content;
 }
@@ -32,7 +32,7 @@ time, mark, audio, video {
 	width: fit-content;
 }
 #nav li{
-    float:left;
+	float:left;
 }
 /*--- DROPDOWN ---*/
 #nav ul{

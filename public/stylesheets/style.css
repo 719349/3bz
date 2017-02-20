@@ -3,11 +3,10 @@ body {
 }
 
 header h1 {
-	font: 10em monospace;
-	font-variant: small-caps;
 	color: black;
-	font: 400 130px/2.75 'Great Vibes', Helvetica, sans-serif;
+	font: 5em 'Great Vibes', Helvetica, sans-serif;
 	text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+	margin: 0.5em;
 }
 
 header p{

@@ -9,6 +9,6 @@ let updateMenu = function() {
 		let registrationButton = document.getElementById('register');
 		registrationButton.parentElement.removeChild(registrationButton);
 	}
-}
+};
 
 window.addEventListener('load', updateMenu);

@@ -1,15 +1,15 @@
-let
+let order,
 retriveOrder = function() {
 	order = localStorage.order;
 	if (order) {
-		return JSON.parse(order)
+		return JSON.parse(order);
 	} else {
 		return {};
 	}
 },
 
 saveOrder = function(order) {
-	localStorage.order = JSON.stringify(order)
+	localStorage.order = JSON.stringify(order);
 },
 
 setUp = function(){

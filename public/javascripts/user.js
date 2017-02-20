@@ -5,6 +5,6 @@ let setUp = function() {
 		let link = document.getElementById('userName');
 		link.innerText = 'Hello ' + user + ' :)';
 	}
-}
+};
 
 window.addEventListener('load', setUp);

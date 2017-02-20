@@ -1,0 +1,12 @@
+article li, article ul, h1, p, dt, dd{
+	margin: 1em;
+}
+
+article li {
+	list-style: circle;
+}
+
+dt{
+	font-variant: small-caps;
+	color: #666;
+}

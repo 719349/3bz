@@ -44,3 +44,24 @@ p {
 li {
 	font-size: 0.75em;
 }
+
+.imageCentre
+{
+
+padding-top: 50px;
+margin-left: 25%;
+}
+
+.wordCentre
+{
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 20%;
+	color: blue;
+}
+
+.contactCent
+{
+	margin-left: 25%;
+	margin-right: 20%;
+}

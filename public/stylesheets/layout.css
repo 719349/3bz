@@ -49,10 +49,16 @@ time, mark, audio, video {
 	display: block;
 }
 
-header img{
-	width: 100%;
+header .logo{
+	width: 100px;
 }
 
 main {
 	clear: left;
+}
+
+.motto {
+	clear:left;
+	float: right;
+	margin-right: 1em;
 }

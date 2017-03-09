@@ -2,20 +2,16 @@ body {
 	font: 1.5em "Source Sans Pro", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-header h1 {
-	color: black;
-	font: 5em 'Great Vibes', Helvetica, sans-serif;
-	text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
-	margin: 0.5em;
-}
-
-header p{
-	position: relative;
+.motto{
 	font-family: 'Great Vibes';
 	font-size: 2em;
-	top: -0.6em;
-	left: 6em;
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
 
+svg text{
+	font-family: 'Great Vibes';
+	font-size: 3em;
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 
 #nav li:hover ul{

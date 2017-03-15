@@ -6,48 +6,25 @@
 	width: 65%;
 }
 
-h1 {
-	font-variant: small-caps;
-	font-size: 1.5em;
-	margin: 1em;
-
-}
-
 li {
 	list-style-position: inside;
 	padding-left: 1em;
-}
-
-address{
-	font-style: italic;
-}
-
-p {
-	margin: 1em;
 	font-size: 0.75em;
 }
 
-li {
-	font-size: 0.75em;
+.imageCentre{
+	padding-top: 50px;
+	margin-left: 25%;
 }
 
-.imageCentre
-{
-
-padding-top: 50px;
-margin-left: 25%;
-}
-
-.wordCentre
-{
+.wordCentre{
 	text-align: center;
 	margin-left: 25%;
 	margin-right: 20%;
 	color: blue;
 }
 
-.contactCent
-{
+.contactCent{
 	margin-left: 25%;
 	margin-right: 20%;
 }

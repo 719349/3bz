@@ -1,14 +1,3 @@
-#productContainer{
-	display: flex;
-	width: 100%
-}
-
-.product{
-	flex: 1;
-	flex-grow: 1;
-	border: 1px solid black;
-}
-
 #kerosene{
 	background-color: green;
 }

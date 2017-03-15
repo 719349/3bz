@@ -1,8 +1,3 @@
-main, .flexContainer{
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .column{
 	/*border: 1px solid black;*/
 	min-width: 600px;

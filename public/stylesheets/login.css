@@ -1,13 +1,13 @@
-#loginStatus, #regStatus {
+.status {
 	display: none;
 }
 
-#loginStatus.valid, #regStatus.valid {
+.valid {
 	display: block;
 	background-color: green;
 }
 
-#loginStatus.invalid, #regStatus.invalid {
+.invalid {
 	display: block;
 	background-color: red;
 }

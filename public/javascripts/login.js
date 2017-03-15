@@ -24,9 +24,8 @@ let setUp = function () {
 
 	registrationForm.addEventListener('submit', function(e){
 		e.preventDefault();
-		let formElements = e.target.getElementsByTagName('input');
 		let status = document.getElementById('regStatus');
-		if (formElements[4].value === formElements[5].value) {
+		if (document.getElementById('password').value === document.getElementById('password2').value) {
 			console.log('They match');
 			status.classList.add('valid');
 			status.classList.remove('invalid');
@@ -37,7 +36,6 @@ let setUp = function () {
 			status.classList.remove('valid');
 			status.innerText = 'Passwords do not match';
 		}
-		// console.log(formElements);
 	});
 };
 

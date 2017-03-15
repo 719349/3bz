@@ -1,17 +1,3 @@
-.flexContainer{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.column{
-	border: 1px solid black;
-	min-width: 300px;
-	margin: 0.5em;
-	padding: 0.5em;
-	border-radius: 0.5em;
-	background-color: #f0dc6f;
-}
-
 #productNavBar{
 	width: 15%;
 }

@@ -1,7 +1,3 @@
-form {
-	/*border: 1px solid black;*/
-}
-
 #loginStatus, #regStatus {
 	display: none;
 }
@@ -16,12 +12,6 @@ form {
 	background-color: red;
 }
 
-.column {
-	margin: 0.5em;
-	padding: 0.5em;
-	background-color: rgba(246, 197, 25, 0.45);
-}
-
 main {
 	background-image: url("http://brfuae.com/modules/homeslider/images/ceff5c46c414f8fdd369f142ddaa04bf76981189_Car%20Oil.jpg");
 	/*background-clip: border-box;*/
@@ -34,7 +24,7 @@ form {
 }
 
 main input, button{
-	/*display: block;*/
+	display: block;
 	font-size: 0.75em;
 	border: 5px solid white;
 	border-radius: 20px;

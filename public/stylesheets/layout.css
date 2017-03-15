@@ -62,3 +62,14 @@ main {
 	float: right;
 	margin-right: 1em;
 }
+
+.flexContainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column{
+	min-width: 300px;
+	margin: 0.5em;
+	padding: 0.5em;
+}

@@ -5,9 +5,6 @@ let updateMenu = function() {
 		let link = document.getElementById('user');
 		link.innerText = 'Hello ' + user + ' :)';
 		link.href = '../pages/user';
-
-		let registrationButton = document.getElementById('register');
-		registrationButton.parentElement.removeChild(registrationButton);
 	}
 };
 

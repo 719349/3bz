@@ -33,6 +33,7 @@ svg text{
 #nav li a{
 	text-decoration:none;
 	font-weight: bold;
+	font-size: 1.25em;
 }
 
 #nav input {
@@ -42,4 +43,13 @@ svg text{
 td, th {
 	border: 1px solid #999;
 	padding: 0.5rem;
+}
+
+input[type=search] {
+	height: 3em;
+	position: absolute;
+	top: 5em;
+	padding: 0.5em;
+	width: 50%;
+	margin: 0 10em;
 }
